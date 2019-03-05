@@ -1,6 +1,6 @@
-﻿$fileA = "S:\Backups\FBBuild\FBBuildD2019-03-04T131708.vbk"
+﻿$fileA = "S:\TestFileA.txt"
 
-$fileB = "E:\ArchivedVMs\2003 VMs\FBBuild\FBBuildD2019-03-04T131708.vbk"
+$fileB = "E:\TestFileB.txt"
 
 $hashA = Get-FileHash -Path $fileA -Algorithm MD5
 $hashB = Get-FileHash -Path $fileB -Algorithm MD5
